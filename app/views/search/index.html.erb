@@ -1,0 +1,10 @@
+<h3><%= facade.total_students %></h3>
+
+<section>
+  <% facade.students.each do |student| %>
+  <ul class='result'>
+    <li>Student Name: <%= student.name %></li>
+    <li>Student ID: <%= student.id %></li>
+  </ul>
+  <% end %>
+</section>
